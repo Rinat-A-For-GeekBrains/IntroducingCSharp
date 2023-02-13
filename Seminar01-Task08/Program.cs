@@ -13,7 +13,7 @@ int N = Convert.ToInt32(Console.ReadLine());
     {
         if (i % 2 == 0)
         {
-          System.Console.Writeline(i+" ");
+          System.Console.Write(i+" ");
         }
                
     }

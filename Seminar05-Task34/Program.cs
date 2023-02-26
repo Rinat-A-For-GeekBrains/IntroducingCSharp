@@ -28,6 +28,6 @@ int OddCount(int[] arr)
             }
             return count;
         }
-        int[] MyArray = GenArray(120, 99, 1000);
+        int[] MyArray = GenArray(120, 99, 1000);//[99-1000) - положительные трехзначные числа
         PrintArray(MyArray);
         Console.WriteLine("Количество четных элементов =" + OddCount(MyArray));
